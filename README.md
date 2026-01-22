@@ -4,12 +4,12 @@ The goal of this repository is to document my problem-solving approach, tools us
 These write-ups are intended for learning and portfolio purposes, and all challenges were solved ethically in a controlled environment.
 
 ## Repository Structure
-picoctf-writeups/
-├── general-skills/
-├── web-exploitation/
-├── forensics/
-├── reverse-engineering/
-├── cryptography/
+picoctf-writeups/<br>
+├── general-skills/<br>
+├── web-exploitation/<br>
+├── forensics/<br>
+├── reverse-engineering/<br>
+├── cryptography/<br>
 └── binary-exploitation/
 
 Each folder contains individual Markdown files with the following structure:
