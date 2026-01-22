@@ -1,28 +1,23 @@
 ## Challenge Information
 - **Name:** Binary Search
-- **Author:** Jeffrey John
+- **Author:** Jeffery John
 - **Category:** General Skills
 - **Difficulty:** Easy
 
 ---
 
 ## Problem Description
-The challenge presents a number guessing game where a value between 1 and 1000 is chosen.
-The goal is to determine the correct number within **10 guesses**, encouraging the use of an efficient search strategy.
+Figuring out what number has been chosen from 1 to 1000, and you only have 10 guesses to find it. The challenge is to use a strategy to find the correct number efficiently.
 
 ---
 
 ## Approach
-Since the number range is sorted and limited, **binary search** is the most efficient approach.
-By repeatedly guessing the midpoint of the remaining range and adjusting based on feedback (higher or lower), half of the possible values can be eliminated with each guess.
-
-This ensures the correct number can be found within the allowed number of attempts.
+Always take half of the remaining choices for each guess. By guessing the middle number, you can eliminate one half of the possibilities every time. This way, you’re guaranteed to find the correct number within 10 guesses.
 
 ---
 
 ## Solution Steps
-1. Start by guessing the midpoint of the range (500).
-2. If the correct number is higher, adjust the range to 501–1000.
-3. If the correct number is lower, adjust the range to 1–499.
-4. Repeat the process by guessing the midpoint of the new range.
-5. Continue narrowing the range until the correct number is identified within 10
+1. Guess 500.  
+2. If the number is higher, guess 750. If lower, guess 250.  
+3. Continue by adding or subtracting half of the remaining range to your previous guess.  
+4. Repeat until you find the correct number.
