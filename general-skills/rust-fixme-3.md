@@ -27,4 +27,4 @@ The challenge provides a Rust program that is supposed to decrypt a hidden flag,
     - Make sure the hex numbers are in the right format.
     - Make sure the unsafe block is uncommented so it can read the decrypted data.
 4. Run the program using cargo run.
-5. Read the output — it will show the flag along with a message.
+5. Read the output, it will show the flag along with a message.
