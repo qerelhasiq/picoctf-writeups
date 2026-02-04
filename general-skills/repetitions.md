@@ -17,7 +17,7 @@ Since the file is Base64-encoded multiple times, the solution is to repeatedly d
 ---
 
 ## Solution Steps
-### Method 1: Manually Repeat the Decryption
+### Method 1: Manual Repetitive Decryption
 1. Display the contents of the encrypted file: `cat enc_flag`
 2. Decode the Base64 string using: `echo "<string>" | base64 -d`
 3. Take the decoded output and repeat the Base64 decoding process.
