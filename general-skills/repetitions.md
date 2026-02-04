@@ -25,9 +25,9 @@ Since the file is Base64-encoded multiple times, the solution is to repeatedly d
 
 ### Method 2: Automated Decryption
 1. Simply run the code:
-`data=$(cat enc_flag)
-while echo "$data" | base64 -d &>/dev/null; do
-  data=$(echo "$data" | base64 -d)
-done
+`data=$(cat enc_flag)<br>
+while echo "$data" | base64 -d &>/dev/null; do<br>
+  data=$(echo "$data" | base64 -d)<br>
+done<br>
 echo "$data"`
 2. Flag will be shown
