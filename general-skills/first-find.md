@@ -8,6 +8,7 @@
 
 ## Problem Description
 The flag is hidden inside a very large ZIP archive. Extract the files and search for the flag in a file named 'uber-secret.txt'
+
 ---
 
 ## Approach
