@@ -20,8 +20,8 @@ When working with a large number of files, manually checking each one is ineffic
 1. Download the challenge file using `wget`.
 2. Extract the contents of the ZIP file using `unzip`.
 3. Locate the file using the find command: `find . -name "uber-secret.txt"`
-> `.` starts the search from the current directory
-> `-name` searches for an exact filename
-> `-iname` can be used to ignore capitalization
+- `.` starts the search from the current directory
+- `-name` searches for an exact filename
+- `-iname` can be used to ignore capitalization
 4. Change directory to the file’s location.
 5. Display the contents of the file to retrieve the flag: `cat uber-secret.txt`
