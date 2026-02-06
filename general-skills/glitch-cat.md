@@ -24,7 +24,7 @@ Identify the hexadecimal portions of the flag and convert them into ASCII charac
 ### Method 1: printf
 `printf '\x61\x34\x33\x39\x32\x64\x32\x65'`
 
-### Method 2: Python one-liner
+### Method 2: Python
 `python3 -c "print(chr(0x61)+chr(0x34)+chr(0x33)+chr(0x39)+chr(0x32)+chr(0x64)+chr(0x32)+chr(0x65))"`
 
 ### Method 3: xxd
