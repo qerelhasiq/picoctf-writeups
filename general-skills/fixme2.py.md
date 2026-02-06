@@ -17,7 +17,7 @@ Identify the syntax error by running the script and analyzing the Python traceba
 ---
 
 ## Solution Steps
-1. 1. Download the Python script: `wget <link-address>`
+1. Download the Python script: `wget <link-address>`
 2. Run the script to see the error: `python <python-script>.py`
 3. Observe the error message: `SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?`
 4. Note the line number where the error occurs: `File "path/directory", line 22`
