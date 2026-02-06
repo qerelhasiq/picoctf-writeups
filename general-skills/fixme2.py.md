@@ -24,7 +24,7 @@ Identify the syntax error by running the script and analyzing the Python traceba
 5. Edit the script to fix the error: `nano <python-script>.py`
 6. Change the operator to a comparison (==) because the goal is to check if flag is empty:
 - = is assignment, which sets flag to a value. Using it in an if statement causes a SyntaxError.
-- == is comparison, which checks whether flag equals the empty string — exactly what we want here.
+- == is comparison, which checks whether flag equals the empty string.
 - := (walrus operator) assigns and evaluates in one step. Using it would assign "" to flag, which is not intended and would make the condition evaluate incorrectly.
 8. Run the script again: `python <python-script>.py`
 9. The flag is printed.
