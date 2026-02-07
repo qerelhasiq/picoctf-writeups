@@ -33,7 +33,7 @@ The challenge hints that the binary exposes useful information through its help 
 | **Dynamic Interaction** | `./warm -h`                    | Runs the program as intended.<br>Enumerates exposed functionality via help output.<br>Lets the program reveal information itself. | More realistic.<br>Teaches proper enumeration habits.<br>Reflects common real-world misconfigurations. | Slightly slower in CTF speedruns.<br>Requires the binary to be executable on the system. |
 
 
-### Real‑World Analogy 🔐
+### Real‑World Analogy 
 
 - `strings | grep`: The blueprints were examined, and secrets written inside were discovered.
 - `-h`: The front desk at a building provided the password directly.
