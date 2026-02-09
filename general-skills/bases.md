@@ -7,7 +7,7 @@
 ---
 
 ## Problem Description
-What does _"DNhcm5fdGgzX3IwcDM1"_ mean? The hint suggests that it has something to do with bases.
+What does _"bDNhcm5fdGgzX3IwcDM1"_ mean? The hint suggests that it has something to do with bases.
 
 ---
 
