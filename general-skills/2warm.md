@@ -17,9 +17,8 @@ The challenge requires understanding decimal to binary conversion. This can be d
 ---
 
 ## Solution Steps
-1. 1. Break 42 into powers of two:
-   - 42 = 32 + 8 + 2
-2. Map the values to binary place positions:
+1. Break 42 into powers of two: 42 = 32 + 8 + 2
+3. Map the values to binary place positions:
 
 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 |-----|----|----|----|---|---|---|---|
